@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "SentriFace_backend": {
+      "declarations": {
+        "node_compatibility": true
+      },
+      "main": "src/SentriFace_backend/main.mo",
+      "type": "motoko"
+    },
+    "SentriFace_frontend": {
+      "dependencies": [
+        "SentriFace_backend"
+      ],
+      "source": [
+        "src/SentriFace_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "SentriFace_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
