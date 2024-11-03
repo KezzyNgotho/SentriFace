@@ -72,8 +72,8 @@ AdaptiveWatch/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/AdaptiveWatch.git
-   cd AdaptiveWatch
+   git clone https://github.com/your-username/SentriFace.git
+   cd SentriFace
    ```
 
 2. **Install frontend dependencies**:
